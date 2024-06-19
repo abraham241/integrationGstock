@@ -20,19 +20,19 @@ export default function Sidebar() {
                 </div>
                 <div className='flex justify-center items-center gap-2'>
                     <FaCartArrowDown />
-                    <Link href="/dashboard">Gestion de stock</Link>
+                    <Link href="/gestiondestock">Gestion de stock</Link>
                 </div>
                 <div className='flex justify-center items-center gap-2'>
                     <FaFileInvoiceDollar />
-                    <Link href="/">Transactions</Link>
+                    <Link href="/transaction">Transactions</Link>
                 </div>
                 <div className='flex justify-center items-center gap-2'>
                     <IoSettingsOutline />
-                    <Link href="/">Paramètres</Link>
+                    <Link href="/parametre">Paramètres</Link>
                 </div>
                 <div className='flex justify-center items-center gap-2'>
                     <IoIosLogOut />
-                    <Link href="/">Se déconnecter</Link>
+                    <Link href="/logout">Se déconnecter</Link>
                 </div>
             </div>
         </div>
