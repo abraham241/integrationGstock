@@ -21,21 +21,21 @@ export default function Sidebar() {
     };
 
     return (
-        <div className='bg-yellow-300 h-screen w-52'>
+        <div className='bg-yellow-300 h-[670px] w-72 flex  flex-col items-start p-10'>
             <div>
                 <img src="/images/logo.png" alt="logo" width={150} height={150} />
             </div>
-            <div className='flex flex-col items-start gap-5'>
-                <div className='flex justify-start items-start gap-2 hover:bg-slate-800 hover:text-white p-2 w-44'>
+            <div className='flex flex-col items-start gap-3 h-full'>
+                <div className='flex justify-start items-center gap-2 hover:bg-slate-800 hover:text-white p-2 w-56 pl-3'>
                     <LuLayoutDashboard />
                     <Link href="/">Dashboard</Link>
                 </div>
-                <div className='flex justify-start items-start gap-2 hover:bg-slate-800 hover:text-white p-2 w-44'>
+                <div className='flex justify-start items-center gap-1 w-56  hover:text-white pl-2'>
                     <FaCartArrowDown />
                     <div className="relative inline-block">
                         <button
                             type="button"
-                            className="px-4 py-2 text-black rounded-lg text-sm inline-flex items-center"
+                            className="px-4 py-2 text-black  text-sm inline-flex items-center h-12  hover:text-white hover:bg-slate-800"
                             onClick={toggleDropdown}
                         >
                             Gestion de stocks
@@ -50,7 +50,7 @@ export default function Sidebar() {
                                     <li>
                                         <Link
                                             href="/gestiondestock/famillearticle"
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            className="block px-4 py-2 text-sm text-black "
                                             onClick={() => setIsOpen(false)}
                                         >
                                             Familles d'articles
@@ -59,7 +59,7 @@ export default function Sidebar() {
                                     <li>
                                         <Link
                                             href="/gestiondestock/famillearticle"
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            className="block px-4 py-2 text-sm text-black "
                                             onClick={() => setIsOpen(false)}
                                         >
                                             Articles
@@ -68,7 +68,7 @@ export default function Sidebar() {
                                     <li>
                                         <Link
                                             href="/gestiondestock/promotion"
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            className="block px-4 py-2 text-sm text-black"
                                             onClick={() => setIsOpen(false)}
                                         >
                                             Promotions
@@ -79,12 +79,12 @@ export default function Sidebar() {
                         )}
                     </div>
                 </div>
-                <div className='flex justify-start items-start gap-2 hover:bg-slate-800 hover:text-white p-2 w-44'>
+                <div className='flex justify-start items-center gap-1   hover:text-white p-2 w-56'>
                     <FaFileInvoiceDollar />
                     <div className="relative inline-block">
                         <button
                             type="button"
-                            className="px-4 py-2 text-black rounded-lg text-sm inline-flex items-center"
+                            className="px-4 py-2 text-black  text-sm inline-flex items-center  hover:text-white hover:bg-slate-800"
                             onClick={toggleDropdownTransx}
                         >
                             Transactions
@@ -99,7 +99,7 @@ export default function Sidebar() {
                                     <li>
                                         <Link
                                             href="/transaction/ventes"
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            className="block px-4 py-2 text-sm text-black"
                                             onClick={() => setIsOpenTransax(false)}
                                         >
                                             Ventes
@@ -108,7 +108,7 @@ export default function Sidebar() {
                                     <li>
                                         <Link
                                             href="/transaction/reclamations"
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            className="block px-4 py-2 text-sm text-black"
                                             onClick={() => setIsOpenTransax(false)}
                                         >
                                         reclamations
