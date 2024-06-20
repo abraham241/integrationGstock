@@ -6,7 +6,7 @@ import { FaFileInvoiceDollar } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
 import Link from 'next/link';
-import logo from '../public/logo.png';
+import logo from '../public/images/logo.png';
 
 
 export default function Sidebar() {
