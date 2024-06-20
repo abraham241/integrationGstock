@@ -5,7 +5,7 @@ import { FaFileInvoiceDollar } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
 import Link from 'next/link';
-import logo from '../public/images/logo.png';
+import logo from '../public/logo.png';
 
 
 export default function Sidebar() {
@@ -13,7 +13,7 @@ export default function Sidebar() {
     <>
         <div className='bg-yellow-300 h-screen w-60 p-7'>
             <div>
-                <img src="../public/images/logo.png" alt="logo" width={150}   height={150} />
+                <img src={logo} alt="logo" width={150}   height={150} />
             </div>
             <div className='flex flex-col items-start gap-5'>
                 <div className='flex justify-start items-start gap-2 hover:bg-slate-800 hover:text-white p-2 w-44'>
