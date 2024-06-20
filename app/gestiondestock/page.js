@@ -1,7 +1,15 @@
 import React from 'react'
+import Sidebar from '@/components/Sidebar'
+import Searchbar from '@/components/Searchbar'
 
 export default function page() {
   return (
-    <div>Bienvenue sur la page de gestion de stock</div>
+    <>
+      <div className='flex gap-4' >
+        <Sidebar />
+        <Searchbar />
+      </div>
+    </>
+
   )
 }
