@@ -3,9 +3,14 @@ import React from 'react'
 
 function Page() {
   return (
-    <div>
+   <div>
+     <div>
       <Sidebar />
     </div>
+    <div>
+      je suis la page article 
+    </div>
+   </div>
   )
 }
 
