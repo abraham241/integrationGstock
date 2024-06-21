@@ -23,7 +23,6 @@ export default function famillearticle() {
           <div className="px-10 pt-5">
             <h1 className="text-3xl font-bold">Famille Articles</h1>
           </div>
-
           <div className="flex justify-end px-10 py-7">
             <div className=" pt-5 flex gap-4">
               <button
