@@ -18,7 +18,7 @@ function page() {
                 <div className='w-full'>
                     <Searchbar />
                 </div>
-                <div className='w-full bg-slate-300 h-full'>
+                <div className='w-full bg-slate-100 h-full'>
                     <div className='pt-8'>
                         <h1 className='text-3xl font-bold ml-10 '>
                             Ajouter une famille d’articles
