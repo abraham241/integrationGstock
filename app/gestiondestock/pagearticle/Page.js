@@ -1,7 +1,12 @@
+import Sidebar from '@/components/Sidebar'
 import React from 'react'
 
-export default function pagearticle() {
+function Page() {
   return (
-    <div>Articles</div>
+    <div>
+      <Sidebar />
+    </div>
   )
 }
+
+export default Page
