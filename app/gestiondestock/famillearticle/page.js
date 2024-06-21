@@ -41,7 +41,7 @@ export default function famillearticle() {
                 <div className="text-xl">
                   <IoIosAddCircleOutline />
                 </div>
-                <Link href="/">Ajouter une famille</Link>
+                <Link href="/gestiondestock/famillearticle/ajouterfamilleart">Ajouter une famille</Link>
               </button>
             </div>
           </div>
