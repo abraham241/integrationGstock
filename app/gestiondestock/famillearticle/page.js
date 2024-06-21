@@ -23,7 +23,6 @@ export default function famillearticle() {
           <div className="px-10 pt-5">
             <h1 className="text-3xl font-bold">Famille Articles</h1>
           </div>
-
           <div className="flex justify-end px-10 py-7">
             <div className=" pt-5 flex gap-4">
               <button
@@ -42,7 +41,7 @@ export default function famillearticle() {
                 <div className="text-xl">
                   <IoIosAddCircleOutline />
                 </div>
-                <Link href="/">Ajouter une famille</Link>
+                <Link href="/gestiondestock/famillearticle/ajouterfamilleart">Ajouter une famille</Link>
               </button>
             </div>
           </div>
