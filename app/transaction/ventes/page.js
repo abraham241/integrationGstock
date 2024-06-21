@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function  famillearticle() {
+function page() {
   return (
-    <div> Ventes</div>
+    <div>Vente</div>
   )
 }
+
+export default page
