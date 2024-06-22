@@ -4,7 +4,6 @@ import Searchbar from '@/components/Searchbar'
 import { FiFilter } from "react-icons/fi";
 import { IoPrintSharp } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
-import { Button } from '@mui/material';
 
 
 function page() {
@@ -116,12 +115,12 @@ function page() {
                     </td>
                     <td className="px-6  py-4">
                       <div className='flex ml-[-25%]  '>
-                        <Button className='text-[#FF5202]'>
+                        <button className='text-[#FF5202]'>
                           <IoPrintSharp />
-                        </Button>
-                        <Button className='text-[#FF5202]'>
+                        </button>
+                        <button className='text-[#FF5202]'>
                           <MdOutlineFileDownload />
-                        </Button>
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -147,12 +146,12 @@ function page() {
                     </td>
                     <td className="px-6 py-4">
                       <div className='flex ml-[-25%]'>
-                        <Button className='text-[#FF5202]'>
+                        <button className='text-[#FF5202]'>
                           <IoPrintSharp />
-                        </Button>
-                        <Button className='text-[#FF5202]'>
+                        </button>
+                        <button className='text-[#FF5202]'>
                           <MdOutlineFileDownload />
-                        </Button>
+                        </button>
                       </div>
                     </td>
                   </tr>
