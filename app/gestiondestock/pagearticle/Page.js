@@ -3,14 +3,14 @@ import React from 'react'
 
 function Page() {
   return (
-   <div>
-     <div>
-      <Sidebar />
+    <div className='flex'>
+      <div>
+        <Sidebar />
+      </div>
+      <div>
+        je suis la page article
+      </div>
     </div>
-    <div>
-      je suis la page article 
-    </div>
-   </div>
   )
 }
 

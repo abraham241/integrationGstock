@@ -60,7 +60,7 @@ export default function Sidebar() {
                                     </li>
                                     <li>
                                         <Link
-                                            href="/gestiondestock/pagearticle"
+                                            href="/gestiondestock/lapagearticle"
                                             className="block px-4 py-2 text-sm text-black "
                                             onClick={() => setIsOpen(false)}
                                         >
